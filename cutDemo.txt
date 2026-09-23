@@ -1,0 +1,19 @@
+This file demonstrates the use of cut command in linux it is basically used to extract the contents of the file 
+for example there is an comma separated value file having data like:
+
+John,25,Developer
+Denver,24,Tester
+Romeo,19,Student
+
+Then we can cut the unnecessary portion from the file and can only display required items such as showing only the names just before the commas
+
+
+The output after running the command:
+cut -d ',' -f 1 cutDemoData.csv
+John
+Denver
+Romeo
+
+
+Explaination:
+here -d flag is used for delimiter i.e. ',' -f is for column i.e. 1 here

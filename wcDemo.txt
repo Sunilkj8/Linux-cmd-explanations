@@ -1,0 +1,15 @@
+This file is being created for the demonstration of wc which is used for counting the letters in a file by running the command 
+wc <filename>
+
+the output will be as follows:
+
+2 26 150 
+2 - lines
+26 - words
+150 -bytes
+
+if you want to count : 
+
+lines -> wc -l <file>
+words -> wc -w <file>
+characters -> wc -m <file>

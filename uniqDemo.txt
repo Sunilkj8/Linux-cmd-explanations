@@ -1,0 +1,7 @@
+apple
+apple
+banana
+banana
+orange
+
+uniq demo file demonstrates the removal of duplicate adjacent elements if we run the command uniq onto this file it'll only show the unique elements onto the console.
